@@ -1,0 +1,40 @@
+# EANIDS: Enhancing Anomaly-Based Network Intrusion Detection Performance with Synthetic Feature Embeddings
+
+This repository contains the code and resources for the thesis project "Enhancing Anomaly-Based Network Intrusion Detection Performance with Synthetic Feature Embeddings" (EANIDS).
+
+The project investigates the effectiveness of incorporating synthetic text and image embeddings as features for anomaly detection in network intrusion datasets. We compare the performance of various machine learning models trained on:
+
+1.  **Traditional Features:** Standard numerical and one-hot encoded categorical features.
+2.  **Embedding Features:** Synthetic text and image embeddings generated from the raw data.
+3.  **Hybrid Features:** A combination of traditional and synthetic embedding features.
+
+The goal is to analyze when, what combinations, and why these synthetic embeddings contribute to improved anomaly-based network intrusion detection performance compared to traditional methods.
+
+## Project Structure
+
+*   `data/`: Datasets or scripts to download them.
+*   `notebooks/`: Google Colab notebooks for data preprocessing, embedding generation, model training, and analysis.
+*   `scripts/`: Reusable Python scripts.
+*   `results/`: Experiment results and performance metrics.
+*   `thesis/`: Thesis document and related files.
+
+## Getting Started
+
+1.  Clone this repository: `git clone https://github.com/your_username/EANIDS.git`
+2.  Ensure you have the necessary datasets in the `data/` directory (or follow instructions within the preprocessing notebooks).
+3.  Open the Google Colab notebooks in the `notebooks/` directory to run the experiments.
+4.  Install dependencies (see `requirements.txt`).
+
+## Experiments
+
+The notebooks cover the following experimental phases:
+
+*   Data loading and initial preprocessing.
+*   Traditional feature engineering (scaling, one-hot encoding).
+*   Synthetic embedding generation (using Sentence Transformers and potentially other methods for text/image).
+*   Model training and evaluation on traditional, embedding, and hybrid feature sets.
+*   Analysis and comparison of model performance across different feature sets.
+
+## Contribution
+
+Feel free to explore the code and methodology. If you find issues or have suggestions, please open an issue.
